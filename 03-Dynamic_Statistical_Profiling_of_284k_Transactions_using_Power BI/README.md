@@ -173,13 +173,8 @@ The same `SWITCH` pattern was applied to all descriptive statistics measures —
 - **Field Parameter slicer** → selects any of the 30 numeric columns
 - Distribution curve (line chart acting as histogram via `COUNTROWS` per value)
 - Dynamic stat cards: Mean, Median, Std Dev, Min, Max, Q1, Q3
-- Distribution shape annotation: historam, as variables are numeric
+- Distribution shape annotation: histogram, as variables are numeric
 
-**Key findings:**
-- `V1`, `V2`, `V4`, `V6`, `V24`, `V26` → non-normal distributions
-- `Time` → bimodal (2-day recording artifact)
-- `Amount` → heavily right-skewed (most transactions < €2,000, max €25,000)
-- Standard deviation decreases monotonically from V1 (1.95) to V28 (0.33) — consistent with PCA variance ordering
 
 ### Page 3 — Bivariate Analysis (vs. `Class`)
 - Stack Column Charts / group comparison: Fraud vs. Normal distributions per variable
@@ -195,9 +190,6 @@ The same `SWITCH` pattern was applied to all descriptive statistics measures —
 | Native histogram not dynamic | Can't bind Field Parameter to bucket axis | Used line chart + `COUNTROWS` per value as histogram proxy |
 | Descriptive stats not dynamic natively | DAX aggregations don't auto-switch columns | Built 30-branch `SWITCH(MAX(...))` pattern — one measure per statistic |
 
----
-
-## 🔮 Next Steps (ML Pipeline)
 
 ---
 
