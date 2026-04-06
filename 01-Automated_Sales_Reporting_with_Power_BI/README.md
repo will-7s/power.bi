@@ -10,9 +10,9 @@ Automated sales dashboard built with Power BI and Power Query. No manual exports
 
 Transform raw, disconnected files into an interactive dashboard that answers:
 
-- Revenue trends (month by month)
+- Turnover trends (month by month)
 - Year-over-year comparison (2024 vs 2023)
-- Top products, brands, and clients
+- Analysis by products, brands, clients... and other filters.
 
 ---
 
@@ -23,7 +23,6 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 | Power Query | Load and clean data (no code) |
 | Power BI | Dashboard and visuals |
 | DAX | Calculations (revenue, YoY) |
-| ChatGPT | Assisted with 1 DAX measure |
 
 ---
 
@@ -42,7 +41,7 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 
 1. Loaded all files with Power Query
 2. Cleaned data (removed empty rows, fixed headers)
-3. Added a `Revenue` column (Qty × Price)
+3. Added a `Turnover` column (Qty × Price)
 4. Built a star schema model (linked tables)
 5. Created a calendar table for date filtering
 6. Wrote DAX measures for revenue and YoY comparison
@@ -52,7 +51,7 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 
 ## 📊 Dashboard features
 
-- Revenue KPI card
+- Treemap of turnovers for regions
 - Monthly trend line (2024 vs 2023)
 - Year filter (dropdown)
 - Revenue table by brand / client
