@@ -9,10 +9,9 @@ Automated sales dashboard built with Power BI and Power Query. No manual exports
 ## 🎯 Objective
 
 Transform raw, disconnected files into an interactive dashboard that answers:
-
 - Turnover trends (month by month)
 - Year-over-year comparison (2024 vs 2023)
-- Analysis by products, brands, clients... and other filters.
+- Analysis by products, brands, clients, region... and other filters.
 
 ---
 
@@ -22,7 +21,7 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 |------|---------|
 | Power Query | Load and clean data (no code) |
 | Power BI | Dashboard and visuals |
-| DAX | Calculations (revenue, YoY) |
+| DAX | Calculations (turnover, YoY) |
 
 ---
 
@@ -32,7 +31,7 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 |------|---------|
 | `Produits.csv` | 100 products |
 | `Clients.xlsx` | 1,000 clients |
-| `Ventes/` folder | 96,000+ sales (2023 + 2024) |
+| `Ventes/` folder | 96,000+ sales (2023 + 2024) | (in other to add files for the next years).
 
 
 ---
@@ -42,9 +41,9 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 1. Loaded all files with Power Query
 2. Cleaned data (removed empty rows, fixed headers)
 3. Added a `Turnover` column (Qty × Price)
-4. Built a star schema model (linked tables)
+4. Built a star schema model (linked tables that were unlinked)
 5. Created a calendar table for date filtering
-6. Wrote DAX measures for revenue and YoY comparison
+6. Wrote DAX measures for turnover and YoY comparison
 7. Designed an interactive dashboard
 
 ---
@@ -61,7 +60,7 @@ Transform raw, disconnected files into an interactive dashboard that answers:
 
 ## 💡 Key skills
 
-> Power Query · Star Schema · DAX · Time Intelligence · Dashboard Design · AI-assisted development
+> Power Query · Star Schema · DAX · Time Intelligence · Dashboard Design 
 
 ---
 
