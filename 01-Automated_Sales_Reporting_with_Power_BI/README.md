@@ -1,8 +1,8 @@
 # Power BI Sales Dashboard – ABC Company
 
-**Power BI link : ** https://app.powerbi.com/groups/me/reports/89551e25-4cc5-45bd-aa67-6d6e28ddba02/fec13063d30d57fe7847?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi&bookmarkGuid=e24f28a1-4a49-4258-9b1c-ec85b75f125a
-
 Automated sales dashboard built with Power BI and Power Query. No manual exports, no repetitive Excel work.
+
+**Power BI link : ** https://app.powerbi.com/groups/me/reports/89551e25-4cc5-45bd-aa67-6d6e28ddba02/fec13063d30d57fe7847?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi&bookmarkGuid=e24f28a1-4a49-4258-9b1c-ec85b75f125a
 
 ---
 
