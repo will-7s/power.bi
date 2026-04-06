@@ -1,14 +1,16 @@
-# 🏦 Statistical Profiling using Power BI + Python
+# 🏦 Dynamic Statistical Profiling using Power BI + Python
  
 > **Stack:** Power BI Desktop · Power Query (M + Python) · DAX · Field Parameters · Custom Visuals  
 > **Dataset:** 284,807 European credit card transactions (Kaggle, 2013) — PCA-transformed features V1–V28  
-> **Goal:** Perfoem univariate & bivariate statistical exploration of a highly imbalanced fraud detection dataset
+> **Goal:** Perform univariate & bivariate statistical exploration of a highly imbalanced fraud detection dataset
 
 ---
 
 ## 📌 Project Overview
 
 This project goes beyond a standard dashboard — it is a **statistical analysis platform built entirely in Power BI**, designed to explore a real-world fraud detection dataset with the rigor of a data scientist and the interactivity of a BI tool.
+
+**Power BI link:** https://app.powerbi.com/groups/me/reports/20522af1-5547-4792-a0a7-04edef1f8d70/0da768d79943273340ac?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi 
 
 Three analytical layers were built:
 
@@ -171,7 +173,7 @@ The same `SWITCH` pattern was applied to all descriptive statistics measures —
 - **Field Parameter slicer** → selects any of the 30 numeric columns
 - Distribution curve (line chart acting as histogram via `COUNTROWS` per value)
 - Dynamic stat cards: Mean, Median, Std Dev, Min, Max, Q1, Q3
-- Distribution shape annotation: Normal / Bimodal / Trimodal / Skewed
+- Distribution shape annotation: historam, as variables are numeric
 
 **Key findings:**
 - `V1`, `V2`, `V4`, `V6`, `V24`, `V26` → non-normal distributions
@@ -181,7 +183,7 @@ The same `SWITCH` pattern was applied to all descriptive statistics measures —
 
 ### Page 3 — Bivariate Analysis (vs. `Class`)
 - Stack Column Charts / group comparison: Fraud vs. Normal distributions per variable
-- For each variable, dynamically choosen, we comprare means of the two groups, as well as median, Q1, Q3... DAX measures and field parameters are still used.
+- For each variable, dynamically choosen, we compare means of the two groups, as well as median, Q1, Q3... DAX measures and field parameters are still used.
 
 ---
 
