@@ -1,4 +1,3 @@
-```markdown
 # Survey Data Preparation & Analytics – Power BI Workflow
 
 **Stack:** Power BI Desktop · Power Query (M) · DAX · Lookup Tables · Data Modeling  
@@ -51,9 +50,7 @@ Raw survey data contained:
 
 **Solution — Lookup table pattern:**
 
-```
 Excel Pivot Table → Count occurrences → Threshold (≥3 kept) → Lookup table → Power Query Merge → Replace
-```
 
 **Power Query implementation:**
 ```m
