@@ -128,25 +128,12 @@ All 5 engineered features (`Year_Birth`, `Income`, `Dt_Customer`, `Recency`, `Nb
 
 ---
 
-## 📊 DAX Measures
-
-| Measure | Formula | Purpose |
-|---------|---------|---------|
-| `Total Spent` | `SUM(Expenses)` | Total revenue generated |
-| `Purchases` | `SUM(Total_Purchases)` | Volume of transactions |
-| `Accepted Campaigns` | `SUM(Total_Response)` | Campaigns converted |
-| `Total Campaigns` | Count of campaigns presented | Denominator for rate |
-| `Response Rate` | `DIVIDE([Accepted], [Total])` | Conversion rate |
-| `Avg Spent` | `Expenses / Accepted Campaigns` | Spend per converted campaign |
-| `Avg Purchases` | `Purchases / Accepted Campaigns` | Volume per converted campaign |
-
----
 
 ## 📈 Dashboard Design
 
 ### Field Parameter — Dynamic Segmentation
 
-A **Field Parameter** was created over all 5 segmentation dimensions. One slicer controls which dimension is active — all visuals update simultaneously without page duplication.
+A **Field Parameter** was created over all 8 segmentation dimensions (5 created). One slicer controls which dimension is active — all visuals update simultaneously without page duplication.
 
 ```
 Selected segment → [Income band | Recency | Web Visits | Age group | Tenure]
@@ -176,8 +163,8 @@ All charts and KPI cards update dynamically
 | **Feature engineering** | 5 business variables synthesized from raw columns — meaningful for marketing |
 | **Missing value strategy** | Median imputation justified by distribution shape (mean ≈ median) |
 | **Dirty data handling** | `Marital_Status` absurd values identified, documented, and standardized |
-| **Field Parameters** | One slicer drives all visuals across 5 segmentation dimensions |
-| **DAX measures** | `DIVIDE` for safe rate computation, `SUMX` for row-level aggregation |
+| **Field Parameters** | One slicer drives all visuals across 8 segmentation dimensions |
+| **DAX measures** | `CALCULATE`, `DIVIDE` for safe rate computation, `SUM` for row-level aggregation |
 | **Tool integration** | EDA App → Python notebook → Power BI — each tool used where it excels |
 | **End-to-end ownership** | Raw CSV → statistical analysis → engineered features → deployed dashboard |
 
@@ -187,7 +174,7 @@ All charts and KPI cards update dynamically
 
 | File | Purpose |
 |------|---------|
-| `marketing_campaign.csv / .xlsx` | Raw data — 2,240 customers, 29 features, 5 campaigns |
+| `marketing_campaign.csv / .xlsx` | Raw data — 2,240 customers, 29 features, 5 (+1) campaigns |
 | `marketing.ipynb` | EDA notebook — univariate, bivariate, feature engineering |
 | Power BI report (`.pbix`) | Final dashboard with all transformations and segments embedded |
 
