@@ -1,10 +1,12 @@
 # Marketing Campaign Analytics – Customer Segmentation & Response Analysis
 
 **Stack:** Power BI Desktop · Power Query (M) · DAX · Field Parameters · Python (EDA App)  
-**Dataset:** 2,240 customer records · 29 features · 5 marketing campaigns  
+**Dataset:** 2,240 customer records · 29 features · 8 marketing campaigns  (5 created)
 **Scope:** End-to-end pipeline — from raw, inconsistent customer data to a segmented, interactive campaign performance dashboard
 
 **EDA App used:** https://huggingface.co/spaces/will-7s/eda_app
+
+Power BI Link: https://app.powerbi.com/groups/me/reports/a2d04256-0fba-4077-97df-473edb293332/cdee724ed3dabc266a91?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi&bookmarkGuid=c81a2a3b-41ce-461a-ba77-325cf8eb014d
 
 ---
 
