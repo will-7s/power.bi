@@ -164,29 +164,6 @@ All charts and KPI cards update dynamically
 | Slicers | Filter by Education, Marital Status, segment dimension |
 | Bookmark | Reset all filters to default state |
 
----
-
-## 🔄 Complete Pipeline Summary
-
-```
-Raw Marketing Data (CSV / XLSX — 2,240 rows × 29 columns)
-        ↓
-[EDA App] → Fast profiling: outliers, missing values, distributions
-        ↓
-[Python Notebook] → Univariate + Bivariate analysis, statistical tests
-        ↓
-[Power Query] → Remove 4 columns + Clean Marital_Status (3 replacements)
-        ↓
-[Power Query] → Impute Income nulls (median) + Engineer 5 business features
-        ↓
-[Load to Power BI Model]
-        ↓
-[DAX] → 5 segmentation columns + 7 KPI measures
-        ↓
-[Field Parameter] → Dynamic dimension selector
-        ↓
-[Report] → Cards, bar charts, slicers, bookmark reset
-```
 
 ---
 
