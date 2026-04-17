@@ -2,7 +2,7 @@
 
 End-to-end sales dashboard built with Power BI Desktop and deployed to Power BI Service.
 
-** Power BI link: ** https://app.powerbi.com/groups/me/reports/12024c38-4a28-4ae8-af5f-73ae8b0c9c5c/f15e7cdacf4b172fad25?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi&bookmarkGuid=ae973b7c-1d54-4b2c-b494-2537d5d8730a 
+**Power BI link:** https://app.powerbi.com/groups/me/reports/12024c38-4a28-4ae8-af5f-73ae8b0c9c5c/f15e7cdacf4b172fad25?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi&bookmarkGuid=ae973b7c-1d54-4b2c-b494-2537d5d8730a 
 
 **Drive Link:** https://mega.nz/file/lBsg3bLC#XuXtPzMRfregLTgVQq7nCupzROSUB7d3kQcjX7PBtpQ
 ---
