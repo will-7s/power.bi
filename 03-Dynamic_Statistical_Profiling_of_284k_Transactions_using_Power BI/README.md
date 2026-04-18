@@ -10,9 +10,9 @@
 
 This project goes beyond a standard dashboard — it is a **statistical analysis platform built entirely in Power BI**, designed to explore a real-world fraud detection dataset with the rigor of a data scientist and the interactivity of a BI tool.
 
-**Power BI link:** https://app.powerbi.com/groups/me/reports/20522af1-5547-4792-a0a7-04edef1f8d70/0da768d79943273340ac?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi 
+Power BI link: https://app.powerbi.com/groups/me/reports/20522af1-5547-4792-a0a7-04edef1f8d70/0da768d79943273340ac?ctid=fd1df4e5-2eb0-410e-a611-12513030b133&experience=power-bi 
 
-**Drive Link:** https://mega.nz/file/RV1whaCL#9xJhuEK4Vw-WmEmWOyumchNjkdko-xVZgAcJEd4omx8
+Drive Link: https://mega.nz/file/RV1whaCL#9xJhuEK4Vw-WmEmWOyumchNjkdko-xVZgAcJEd4omx8
 
 Three analytical layers were built:
 
