@@ -85,7 +85,7 @@ Original component columns removed after aggregation to keep the model clean.
 
 ---
 
-## 🧩 Customer Segmentation (DAX Calculated Columns)
+## 🧩 Customer Segmentation (Custom Columns)
 
 Five segmentation dimensions built directly in the Power BI model using `IF` logic for custom column:
 
@@ -181,5 +181,22 @@ All charts and KPI cards update dynamically
 | Power BI report (`.pbix`) | Final dashboard with all transformations and segments embedded |
 
 ---
+
+## Conclusions
+
+We created a Power BI report in which we segmented our customers and then identified which segments were the most profitable in terms of their engagement with marketing campaigns. We focused on combining up to two business criteria.
+
+Some most profitable customer segments include:
+
+-   Nb Children: 1, and Nb Monthly Web Visits: Medium, with avg spent 3038.3
+-	Marital Status: Widow, and Recency: Churned, with avg spent 3803
+-	Income : [20k-40k], and Recency: Churned, with avg spent 3087
+-	Income: [40k-60k], and Nb Monthly Web Visits: Medium, with avg spent 3031.7
+-	Education: 2n Cycle, and Marital Status: Widow, with avg spent 3386
+-	Customer Tenure: New, and Recency: Churned, with avg spent 3043,
+-	Customer Tenure: Veteran, and Nb Monthly Web Visits: Medium, with avg spent 3469,
+-	Customer Tenure: Established, and Nb Children: 3, with avg spent 4523
+-	Customer Tenure: New, and Marital Status: Widow, with avg spent 3179.75,
+-	Customer Tenure: Established, with Income: Less than 20k, with avg spent 3621,
 
 *This project demonstrates that effective marketing analytics requires both statistical validation (which features matter?) and business translation (how do we segment and act on them?) — Power BI handles the latter only after Python answers the former.*
