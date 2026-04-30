@@ -327,7 +327,7 @@ All measures are **fully filter-aware** — they adapt automatically to any acti
 
 ```
 📁 Project/
-├── world_dashboard.pbix      ← Power BI report — all queries, model, DAX, visuals
+├── card.pbix      ← Power BI report — all queries, model, DAX, visuals
 └── README.md
 ```
 
