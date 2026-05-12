@@ -12,7 +12,7 @@ Drive Link : https://mega.nz/file/hJsSVbhI#kvMkILVX3U6ADrjj0lmUkNCmdKBDY5VUW7QGc
 Transform raw, disconnected files into an interactive dashboard that answers:
 - Turnover trends (month by month)
 - Year-over-year comparison (2024 vs 2023)
-- Analysis by products, brands, clients, region... and other filters.
+- Analysis by products, brands, clients, region... and other filters
 
 ---
 

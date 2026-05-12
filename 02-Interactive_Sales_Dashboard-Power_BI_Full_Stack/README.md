@@ -73,7 +73,7 @@ Star schema:
 | `% Total Sales` | DIVIDE([Total Sales], CALCULATE([Total Sales], ALL(sales)), 0) |
 
 
-All measures stored in a dedicated `Measures (2)` table.
+All measures stored in a dedicated `Measures (2)` table
 
 ---
 

@@ -18,7 +18,7 @@ Raw survey data contained:
 - Salary ranges stored as text (e.g., "50k-126k")
 - Inconsistent categorical values across multiple questions
 
-**Result:** A fully prepared dataset with standardized categories, numeric salary bands, and a star schema ready for dashboarding.
+**Result:** A fully prepared dataset with standardized categories, numeric salary bands, and a star schema ready for dashboarding
 
 ---
 
